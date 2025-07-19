@@ -18,7 +18,7 @@
     !function (f, b, e, v, n, t, s) {
       if (f.fbq) return; n = f.fbq = function () {
         n.callMethod ?
-        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
       };
       if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
       n.queue = []; t = b.createElement(e); t.async = !0;
@@ -40,38 +40,18 @@
       <h1>Мене звуть Настя&nbsp;Боднар</h1>
     </div>
 
+    
     <div class="wrapper">
       <div class="description">
         <p>
           Я живу у Львові, продаю вінтаж, люблю їздити трамваєм та пишу прозу й поезію. Також веду блог в <a
             href="https://instagram.com/nastya.bodnar">Інстаграмі</a>. І я написала дебютну книжку.
         </p>
-        <p>
-          <i><a href="https://forms.gle/hh8zwc1z9c7tpknn8">«Годину по тому»</a></i> &mdash; це п'ятнадцять новел про
-          львівських
-          жінок, таких ніжних та при цьому незалежних і відвертих у своїх бажаннях, про їх думки та сподівання.
-        </p>
-        <p>
-          Це розповіді про пошуки любові, про намагання знайти
-          відповіді на запитання, чи існує кохання після сексу та
-          навпаки. Про сміливість бути такими, якими є: наївними,
-          закоханими, впевненими, обуреними, без зайвих прикрас і інакшомовностей.
-        </p>
-
-        <p>
-          Жінки, котрі самі вирішують, яким буде сьогоднішній
-          день та знають, чого хочуть, в цій книзі говорять тобі про те,
-          що зазвичай розказують лише подругам.
-        </p>
+        <div class="button-group" onclick="window.open('https://forms.gle/hh8zwc1z9c7tpknn8', '_blank')">
+          <div class="button-link">Купити за 240₴</div>
+        </div>
       </div>
     </div>
-
-    <style>
-      .carousel-cell img {
-        border: 1px solid white;
-      }
-    </style>
-
 
     <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": "true" }'>
 
@@ -101,6 +81,42 @@
         <img src="./godynu-po-tomy-3.png" alt="">
       </div>
     </div>
+
+    <div class="wrapper">
+      <div class="description">
+
+        <p>
+          <i><a href="https://forms.gle/hh8zwc1z9c7tpknn8">«Годину по тому»</a></i> &mdash; це п'ятнадцять новел про
+          львівських
+          жінок, таких ніжних та при цьому незалежних і відвертих у своїх бажаннях, про їх думки та сподівання.
+        </p>
+        <p>
+          Це розповіді про пошуки любові, про намагання знайти
+          відповіді на запитання, чи існує кохання після сексу та
+          навпаки. Про сміливість бути такими, якими є: наївними,
+          закоханими, впевненими, обуреними, без зайвих прикрас і інакшомовностей.
+        </p>
+
+        <p>
+          Жінки, котрі самі вирішують, яким буде сьогоднішній
+          день та знають, чого хочуть, в цій книзі говорять тобі про те,
+          що зазвичай розказують лише подругам.
+        </p>
+      </div>
+    </div>
+
+    <style>
+      .carousel-cell img {
+        border: 1px solid white;
+      }
+
+      .main-carousel {
+        margin-bottom: 30px;
+      }
+    </style>
+
+
+
 
     <div class="buttons">
 
